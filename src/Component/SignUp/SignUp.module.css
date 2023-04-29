@@ -1,0 +1,78 @@
+.main {
+  background-color: #5d8fc9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form {
+  background-color: white;
+  padding: 2rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 10px;
+}
+
+.main input {
+  border-radius: 6px;
+  border: none;
+  background-color: lightgray;
+  padding: 0.5rem;
+  width: 15vw;
+  height: 4vh;
+}
+
+.main select {
+  border-radius: 6px;
+  border: none;
+  background-color: lightgray;
+  padding: 0.5rem;
+  width: 16vw;
+  height: 6vh;
+  color: gray;
+}
+
+.main button {
+  width: 6vw;
+  padding: 0.5rem;
+  background-color: #007bff;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    background-color: white;
+  }
+
+  .main h1 {
+    color: #5d8fc9;
+  }
+  .form {
+    width: 100%;
+  }
+
+  .form input {
+    width: 20rem;
+  }
+
+  .form select {
+    width: 21rem;
+  }
+  .form button {
+    width: 10rem;
+  }
+}

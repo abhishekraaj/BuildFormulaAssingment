@@ -1,0 +1,189 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #5d8fc9;
+  padding: 2rem;
+  color: white;
+  font-family: sans-serif;
+  gap: 8vw;
+}
+
+.container {
+  flex: 1;
+}
+
+.input {
+  display: flex;
+  gap: 2rem;
+}
+
+.input textarea {
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem;
+}
+
+.input button {
+  width: 4vw;
+  font-size: 2rem;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.post {
+  display: flex;
+  gap: 2rem;
+}
+
+.post button {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  width: 4vw;
+}
+
+.addPost {
+  background-color: white;
+  color: #5d8fc9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  gap: 2rem;
+  column-gap: 1rem;
+  margin-bottom: 1vh;
+}
+
+.users {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.users p {
+  line-height: 0;
+}
+
+.users button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #5d8fc9;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1vh;
+  width: 15vw;
+  text-align: center;
+  box-shadow: 2px 2px 7px 2px black;
+}
+
+.users input {
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.users select {
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  padding: 0.5rem;
+}
+.search {
+  display: flex;
+  gap: 2vw;
+}
+
+.lists {
+  display: flex;
+}
+
+@media screen and (max-width: 1140px) {
+  .wrapper {
+    gap: 20vw;
+  }
+
+  .search {
+    flex-direction: column;
+  }
+
+  .search input {
+    width: 20vw;
+  }
+
+  .search select {
+    width: 21.5vw;
+  }
+
+  .search button {
+    width: 21.5vw;
+  }
+
+  .addPost {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .input button {
+    width: 80vw;
+  }
+
+  .search input {
+    width: 80vw;
+  }
+
+  .search select {
+    width: 81.5vw;
+  }
+
+  .search button {
+    width: 81.5vw;
+  }
+
+  .addPost {
+    width: 80vw;
+  }
+}

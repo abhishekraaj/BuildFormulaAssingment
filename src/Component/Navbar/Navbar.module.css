@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #5d8fc9;
+}
+
+.nav button {
+  background-color: red;
+  color: white;
+  height: 6vh;
+  padding: 0.2rem;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+}
+
+.logout {
+  display: flex;
+  justify-content: space-between;
+  color: #5d8fc9;
+  gap: 1vw;
+}
